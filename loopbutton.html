@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Button</title>
+    </head>
+    <body>
+        <button onclick="doSomething()" style="background-color:rgb(29, 3, 54);color:rgb(71, 249, 71); border-radius:5px">Click Me</button>
+        <p id="test">Hello Jaa</p>
+
+        <script>
+            function doSomething() {
+                const textElement = document.getElementById("test");
+                if (textElement.innerHTML === "Hello Jaa") {
+                    textElement.innerHTML = "Hello Ely";
+                } else {
+                    textElement.innerHTML = "Hello Jaa";
+                }
+            }
+        </script>
+    </body>
+</html>

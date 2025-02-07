@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="fname"><b>First Name:</b></label>
+                <input type="text" id="fname" placeholder="Joshua Andrew" required>
+            </div>
+            <br>
+                <div>
+                <label for="lname"><b>Last Name:</b></label>
+                <input type="text" id="lname" placeholder="Aboga" required>
+        </div>
+         <br>
+
+        <div>
+            <label for="pass"><b>Password:</b></label>
+            <input type="password" id="pass" placeholder="09*********" required>
+        </div>
+        <br>
+        
+        <div>
+        <label for="tele"><b>Contact Number:</b></label>
+        <input type="tel" id="tele" placeholder="0917-123-4567" pattern="[0-9]{3}-[0-9]{3}-[0-9]4">
+</div>
+<br>
+
+<div>
+        <label for="bdate"><b>Birthday:</b></label>
+        <input type="date" id="bdate" name="bdate" value="10/16/06" required>
+</div>
+<br>
+
+<div>
+<label for="quantity"><b>Quantity:</b></label>
+<input type="number" id="quanty" min="0" max="7" value="0">
+</div> 
+<br>
+
+
+
+            <div>
+                <label for="expl"><b>Additional Information:</b></label>
+                <input type="text" id="expl" minlength="3" maxlength=25" required>
+            </div>
+            <br>
+<div>
+    <label for="any"><b>The Main Purpose of the Comment:</b></label>
+    <input type="text" id="any" value="Hello Jaa">
+</div>
+<br>
+<label for="comment"><b>Comment:</b></label>
+<textarea id="comment" rows="3" cols="25"></textarea>
+<div> <BR>
+
+    <label for="file"><b>Choose file</b></label>
+    <input type="file" id="file">
+    <br>
+
+    <br>
+    <label for="usname"><b>Disabled Username:</b></label>
+    <input type="text" id="usname" value="(example:jaapogi123)" disabled>
+</div>
+<br>
+            <div>
+                <label><b>Mr</b></label>
+                <input type="radio" name="Title:">
+            </div>
+<br> 
+
+                
+<div><label><b>Mrs</b></label>
+                <input type="radio" name="Title:">
+                </div>
+                <br>
+<div>
+                <label><b>CAPT.</b></label>
+                <input type="radio" name="Title:">
+</div>
+<br>
+<div>
+                <label><b>INGR.</b></label>
+                <input type="radio" name="Title:">
+            </div>
+        </div>
+<br>
+        <div>
+<label for="payment"><b>Payment Method:</b></label>
+<select id="payment" name="payment">
+    <option value="Gcash">Gcash</option>
+    <option value="Paymaya">Paymaya</option>
+    <option value="Otang">Otang hehe</option>
+</select>
+</div>
+<div>
+    <br>
+    <input type="reset">
+    <div>
+        <br>
+    <input type="submit">
+    </div>
+    <br>
+<div>
+        </div>
+        <div>
+           <label for="subs"><B>Subscribe:</B></label>
+             
+        
+           <select id="payment" name="Price">
+            <option id="payment" disabled> Pick a price among the choices</option>
+            <option id="payment">$99 (Recommended)</option>
+            <option id="payment">$75</option>
+            <option id="payment">$50</option>
+            <option id="payment">$30</option>
+            <option id="payment">$15</option>
+        </select>
+<label for="agreement"><b>I agree</b></label>
+<input type="checkbox" id="agreement">
+        </div>
+        </form>
+
+    </body>
+</html>
